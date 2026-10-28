@@ -1,0 +1,22 @@
+version: 2
+
+sources:
+  - name: raw
+    description: Loaded by `python -m ingest`. One row per source per period. Only sources that passed their contract get loaded.
+    schema: raw
+    loaded_at_field: fetched_at
+    freshness:
+      warn_after: {count: 3, period: day}
+      error_after: {count: 8, period: day}
+    tables:
+      - name: observations
+        columns:
+          - name: source_id
+            data_tests: [not_null]
+          - name: period
+            data_tests: [not_null]
+          - name: value
+            data_tests: [not_null]
+      - name: load_log
+        description: Every ingestion attempt, pass or fail, with the contract problems.
+        freshness: null

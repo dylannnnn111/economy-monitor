@@ -1,0 +1,25 @@
+name: economy_monitor
+version: "1.0.0"
+config-version: 2
+profile: economy_monitor
+
+model-paths: ["models"]
+test-paths: ["dbt_tests"]
+macro-paths: ["macros"]
+target-path: "target"
+clean-targets: ["target", "dbt_packages"]
+
+models:
+  economy_monitor:
+    staging:
+      +materialized: view
+      +schema: staging
+    intermediate:
+      +materialized: view
+      +schema: intermediate
+    marts:
+      +materialized: table
+      +schema: marts
+
+flags:
+  send_anonymous_usage_stats: false

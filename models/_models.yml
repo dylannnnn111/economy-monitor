@@ -1,0 +1,61 @@
+version: 2
+
+models:
+  - name: stg_observations
+    description: Raw observations with a parsed period start date.
+    data_tests:
+      - dbt_utils_free_unique_combination:
+          arguments: {columns: [source_id, period]}
+  - name: int_cpi_quarterly_both
+    description: Annual inflation by quarter from both the published quarterly CPI and the monthly CPI, so the two can be checked against each other where they overlap.
+  - name: int_cpi_quarterly
+    description: One annual inflation figure per quarter - published quarterly CPI first, monthly CPI after it stopped.
+    columns:
+      - name: quarter
+        data_tests: [unique, not_null]
+      - name: cpi_yoy
+        data_tests:
+          - not_null
+          - accepted_range: {arguments: {min_value: -5, max_value: 15}}
+  - name: int_cpi_monthly_yoy
+    columns:
+      - name: month
+        data_tests: [unique, not_null]
+  - name: fct_real_wages_quarterly
+    description: Wage growth (WPI) against inflation (CPI) by quarter, and the real wage growth that leaves.
+    columns:
+      - name: quarter
+        data_tests: [unique, not_null]
+      - name: wage_growth
+        data_tests:
+          - not_null
+          - accepted_range: {arguments: {min_value: -5, max_value: 15}}
+      - name: inflation
+        data_tests: [not_null]
+      - name: real_wage_growth
+        data_tests:
+          - not_null
+          - accepted_range: {arguments: {min_value: -10, max_value: 10}}
+  - name: fct_macro_monthly
+    description: One row per month - inflation, cash rate, real cash rate, unemployment and dwelling approvals.
+    columns:
+      - name: month
+        data_tests: [unique, not_null]
+      - name: inflation
+        data_tests:
+          - accepted_range: {arguments: {min_value: -5, max_value: 15}}
+      - name: cash_rate
+        data_tests:
+          - accepted_range: {arguments: {min_value: 0, max_value: 20}}
+      - name: unemployment_rate
+        data_tests:
+          - accepted_range: {arguments: {min_value: 0, max_value: 20}}
+      - name: dwellings_approved
+        data_tests:
+          - accepted_range: {arguments: {min_value: 1000, max_value: 60000}}
+  - name: fct_headline
+    columns:
+      - name: measure
+        data_tests: [unique, not_null]
+      - name: value
+        data_tests: [not_null]

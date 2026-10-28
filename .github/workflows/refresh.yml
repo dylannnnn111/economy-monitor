@@ -1,0 +1,49 @@
+name: refresh
+# Pulls fresh ABS and RBA data every morning (Sydney time), checks every source contract,
+# rebuilds and tests the dbt models, and commits the exported JSON if anything changed.
+# Any failure opens (or comments on) an issue labelled `data-contract`.
+on:
+  schedule:
+    - cron: "23 21 * * *"   # 08:23 AEDT / 07:23 AEST
+  workflow_dispatch:
+permissions:
+  contents: write
+  issues: write
+concurrency: refresh
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Ingest (live) and check source contracts
+        id: ingest
+        run: python -m ingest --live
+      - name: Build and test the models
+        id: dbt
+        run: |
+          dbt build --profiles-dir .
+          dbt source freshness --profiles-dir .
+      - name: Export for the site
+        run: python scripts/export.py
+      - name: Commit if the data changed
+        run: |
+          git config user.name "economy-monitor bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add out/economy-monitor.json out/contracts.json
+          if git diff --cached --quiet -- out/; then echo "No change"; exit 0; fi
+          git commit -m "Data refresh $(date -u +%Y-%m-%d)"
+          git push
+      - name: Open or update an issue on failure
+        if: failure()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          body="$(python scripts/issue_body.py "${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}")"
+          gh label create data-contract --color B60205 --description "Refresh or source contract failure" 2>/dev/null || true
+          n=$(gh issue list --label data-contract --state open --json number -q '.[0].number')
+          if [ -n "$n" ]; then gh issue comment "$n" --body "$body"; else gh issue create --title "Data refresh failed" --label data-contract --body "$body"; fi

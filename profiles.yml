@@ -1,0 +1,7 @@
+economy_monitor:
+  target: local
+  outputs:
+    local:
+      type: duckdb
+      path: "{{ env_var('EM_DB', 'warehouse/economy.duckdb') }}"
+      threads: 4
