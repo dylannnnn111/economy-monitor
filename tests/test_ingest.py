@@ -87,6 +87,24 @@ class Versions(unittest.TestCase):
             fetch.http_get = orig
 
 
+class MonthEnd(unittest.TestCase):
+    def test_daily_series_keeps_last_value_in_each_month(self):
+        from ingest import __main__ as run
+        from ingest.sources import BY_ID
+        daily = "\n".join([
+            "Title,Cash Rate Target", "Units,Per cent", "Frequency,Daily", "Series ID,FIRMMCRTD",
+            "29-Sep-2026,4.35", "30-Sep-2026,4.60", "01-Oct-2026,4.60",
+        ])
+        orig = fetch.http_get
+        fetch.http_get = lambda url, accept=None: daily
+        try:
+            unit, pts, _, _ = run.fetch_live(BY_ID["cash_rate_target"])
+        finally:
+            fetch.http_get = orig
+        self.assertEqual(unit, "Per cent")
+        self.assertEqual(pts, [("2026-09", 4.6), ("2026-10", 4.6)])
+
+
 class Periods(unittest.TestCase):
     def test_next_period_rolls_years(self):
         self.assertEqual(next_period("2025-12"), "2026-01")

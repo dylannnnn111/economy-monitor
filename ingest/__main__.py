@@ -54,8 +54,13 @@ def fetch_live(s: Source) -> tuple[str, list[tuple[str, float]], str, list[str]]
         return series[0]["unit"], series[0]["points"], url, extra
     url = fetch.rba_url(s.table)
     t = fetch.parse_rba_csv(fetch.http_get(url), s.series_id)
-    pts = [(to_month(p), v) for p, v in t["points"] if p >= s.start]
-    return t["unit"], pts, url, extra
+    pts = [(p, v) for p, v in t["points"] if p >= s.start]
+    if s.month_end:
+        last: dict[str, float] = {}
+        for p, v in pts:  # points are in date order, so the last write per month wins
+            last[p[:7]] = v
+        return t["unit"], list(last.items()), url, extra
+    return t["unit"], [(to_month(p), v) for p, v in pts], url, extra
 
 
 def main(argv=None) -> int:

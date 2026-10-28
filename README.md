@@ -7,13 +7,13 @@ A small, modern data stack for the Australian economy. It pulls ABS and RBA data
 ```
 ABS Data API ─┐                          ┌─ staging ─ intermediate ─ marts ─┐
               ├─ ingest (contracts) ─ DuckDB ────────── dbt build ──────────┼─ export ─ out/economy-monitor.json ─ site
-RBA tables ───┘                          └──────── 29 data tests ───────────┘
+RBA tables ───┘                          └──────── 30 data tests ───────────┘
 ```
 
 ## What it answers
 
 - **Are wages beating prices?** Wage Price Index growth against CPI inflation, quarter by quarter, and the real wage growth that leaves.
-- **Where is inflation against the cash rate?** Headline and trimmed mean inflation, the cash rate, and the real cash rate.
+- **Where is inflation against the cash rate?** Headline and trimmed mean inflation, the cash rate, and the real cash rate. The headline cash rate comes from the RBA's daily table, because a monthly average hides a move late in the month (the 30 Sep 2026 hike to 4.60% shows up as 4.36% in September's average).
 - **Jobs and building:** the unemployment rate, and dwelling approvals over the last 12 months.
 
 ## Sources
@@ -28,6 +28,7 @@ RBA tables ───┘                          └──────── 29 
 | `wpi` | Wage Price Index, total hourly rates excl. bonuses | ABS `WPI` |
 | `dwelling_approvals` | Dwelling units approved, total residential | ABS `BA_GCCSA` |
 | `cash_rate` | Cash rate target, monthly average | RBA table F1.1 |
+| `cash_rate_target` | Cash rate target at the end of each month (headline) | RBA table F1 (daily) |
 
 ## Source contracts
 
@@ -44,11 +45,11 @@ The trimmed mean doesn't line up the same way, because the ABS calculates it dif
 ## Run it
 
 ```
-pip install -r requirements.txt
+pip install -r requirements.txt                # Python 3.11+ (duckdb 2.0 needs it)
 python -m ingest --live                        # or --snapshot data/snapshot.json to run offline
 dbt build --profiles-dir .
 python scripts/export.py                       # writes out/economy-monitor.json
-python -m unittest discover tests              # 20 tests
+python -m unittest discover tests              # 21 tests
 dbt docs generate --profiles-dir . && dbt docs serve --profiles-dir .   # lineage graph and model docs
 ```
 

@@ -47,6 +47,9 @@ models:
       - name: cash_rate
         data_tests:
           - accepted_range: {arguments: {min_value: 0, max_value: 20}}
+      - name: cash_rate_target
+        data_tests:
+          - accepted_range: {arguments: {min_value: 0, max_value: 20}}
       - name: unemployment_rate
         data_tests:
           - accepted_range: {arguments: {min_value: 0, max_value: 20}}

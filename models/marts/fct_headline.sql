@@ -9,9 +9,9 @@ latest as (
            arg_max(trimmed_mean_inflation, month) filter (where trimmed_mean_inflation is not null),
            max(month) filter (where trimmed_mean_inflation is not null) from m
     union all
-    select 'cash_rate', 'Cash rate target (monthly average)', '%',
-           arg_max(cash_rate, month) filter (where cash_rate is not null),
-           max(month) filter (where cash_rate is not null) from m
+    select 'cash_rate', 'Cash rate target', '%',
+           arg_max(cash_rate_target, month) filter (where cash_rate_target is not null),
+           max(month) filter (where cash_rate_target is not null) from m
     union all
     select 'unemployment_rate', 'Unemployment rate', '%',
            arg_max(unemployment_rate, month) filter (where unemployment_rate is not null),

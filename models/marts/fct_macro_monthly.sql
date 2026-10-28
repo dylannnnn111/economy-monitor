@@ -8,6 +8,7 @@ with spine as (
         (select max(m) from (
             select max(month) as m from {{ ref('stg_unemployment_rate') }}
             union all select max(month) from {{ ref('stg_cash_rate') }}
+            union all select max(month) from {{ ref('stg_cash_rate_target') }}
             union all select max(month) from {{ ref('stg_cpi_monthly') }}
             union all select max(month) from {{ ref('stg_dwelling_approvals') }}
         )),
@@ -29,6 +30,7 @@ select
          when q.cpi_yoy is not null then 'quarterly CPI'
     end as inflation_source,
     r.cash_rate,
+    t.cash_rate_target,
     round(r.cash_rate - coalesce(m.trimmed_mean_yoy, q.trimmed_mean_yoy), 2) as real_cash_rate,
     round(u.unemployment_rate, 2) as unemployment_rate,
     a.dwellings_approved,
@@ -37,6 +39,7 @@ from spine s
 left join {{ ref('int_cpi_monthly_yoy') }} m on m.month = s.month
 left join {{ ref('int_cpi_quarterly') }} q on q.quarter = date_trunc('quarter', s.month)
 left join {{ ref('stg_cash_rate') }} r on r.month = s.month
+left join {{ ref('stg_cash_rate_target') }} t on t.month = s.month
 left join {{ ref('stg_unemployment_rate') }} u on u.month = s.month
 left join approvals a on a.month = s.month
 order by s.month

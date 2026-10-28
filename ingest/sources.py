@@ -33,6 +33,7 @@ class Source:
     # RBA
     table: str = ""
     series_id: str = ""
+    month_end: bool = False  # daily series: keep the last observation in each month
     start: str = "2015-01"
 
 
@@ -75,6 +76,13 @@ SOURCES: list[Source] = [
     Source(
         id="cash_rate", kind="rba", label="RBA cash rate target (monthly average)",
         table="f1.1", series_id="FIRMMCRT",
+        contract=Contract("M", "per cent", 60, 45, (0, 20)),
+    ),
+    Source(
+        id="cash_rate_target", kind="rba", label="RBA cash rate target (end of month, from the daily table)",
+        table="f1", series_id="FIRMMCRTD", month_end=True,
+        # A monthly average hides a change made late in the month (the 30 Sep 2026 hike shows as +0.01),
+        # so the headline uses the target as at the end of each month.
         contract=Contract("M", "per cent", 60, 45, (0, 20)),
     ),
 ]
