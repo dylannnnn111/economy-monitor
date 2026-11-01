@@ -1,0 +1,8 @@
+title = "economy-monitor"
+
+[extend]
+useDefault = true
+
+[allowlist]
+description = "ABS SDMX series keys in ingest/sources.py are public dataflow codes, not secrets"
+regexes = ['''^[0-9A-Z]+(\.[0-9A-Z]*)+$''']
