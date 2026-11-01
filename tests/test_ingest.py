@@ -54,6 +54,12 @@ class Parsing(unittest.TestCase):
         self.assertEqual(series[0]["unit"], "Index Numbers")
         self.assertEqual(series[0]["points"], [("2026-07", 103.07), ("2026-08", 103.5)])
 
+    def test_abs_points_come_back_in_time_order(self):
+        head, *rows = ABS_CSV.strip().split("\n")
+        shuffled = "\n".join([head] + rows[::-1]) + "\n"
+        for s in fetch.parse_abs_csv(shuffled):
+            self.assertEqual([p for p, _ in s["points"]], ["2026-07", "2026-08"])
+
     def test_abs_prefer_picks_one_adjustment(self):
         picked = fetch.pick_series(fetch.parse_abs_csv(ABS_CSV), {"TSEST": ["20", "10"]})
         self.assertEqual(len(picked), 1)

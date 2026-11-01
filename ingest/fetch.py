@@ -70,6 +70,10 @@ def parse_abs_csv(text: str) -> list[dict]:
         except ValueError:
             continue
         g["points"].append((rec["TIME_PERIOD"].strip(), value))
+    # The live ABS API doesn't promise rows in time order (the first live run on GitHub
+    # Actions got them shuffled), so sort here. Periods like 2026-08 and 2026-Q3 sort as text.
+    for g in groups.values():
+        g["points"].sort(key=lambda pv: pv[0])
     return list(groups.values())
 
 
