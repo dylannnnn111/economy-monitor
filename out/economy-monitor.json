@@ -1,19 +1,19 @@
 {
- "generated_at": "2026-10-28T01:07:00Z",
+ "generated_at": "2026-11-01T20:58:30Z",
  "headline": [
   {
    "measure": "inflation",
    "label": "Annual CPI inflation",
    "unit": "%",
-   "value": 3.97,
-   "as_of": "2026-08-01"
+   "value": 4.34,
+   "as_of": "2026-09-01"
   },
   {
    "measure": "trimmed_mean_inflation",
    "label": "Trimmed mean inflation (RBA's preferred)",
    "unit": "%",
-   "value": 3.57,
-   "as_of": "2026-08-01"
+   "value": 3.59,
+   "as_of": "2026-09-01"
   },
   {
    "measure": "cash_rate",
@@ -46,145 +46,721 @@
  ],
  "monthly": [
   {
-   "month_label": "2019-01",
+   "month_label": "2015-01",
    "inflation": null,
    "trimmed_mean_inflation": null,
    "inflation_source": null,
+   "cash_rate": 2.5,
+   "cash_rate_target": 2.5,
+   "real_cash_rate": null,
+   "unemployment_rate": 6.35,
+   "dwellings_approved": 16910.0,
+   "dwellings_approved_12m": null
+  },
+  {
+   "month_label": "2015-02",
+   "inflation": null,
+   "trimmed_mean_inflation": null,
+   "inflation_source": null,
+   "cash_rate": 2.28,
+   "cash_rate_target": 2.25,
+   "real_cash_rate": null,
+   "unemployment_rate": 6.16,
+   "dwellings_approved": 18371.0,
+   "dwellings_approved_12m": null
+  },
+  {
+   "month_label": "2015-03",
+   "inflation": null,
+   "trimmed_mean_inflation": null,
+   "inflation_source": null,
+   "cash_rate": 2.25,
+   "cash_rate_target": 2.25,
+   "real_cash_rate": null,
+   "unemployment_rate": 6.11,
+   "dwellings_approved": 21056.0,
+   "dwellings_approved_12m": null
+  },
+  {
+   "month_label": "2015-04",
+   "inflation": null,
+   "trimmed_mean_inflation": null,
+   "inflation_source": null,
+   "cash_rate": 2.25,
+   "cash_rate_target": 2.25,
+   "real_cash_rate": null,
+   "unemployment_rate": 6.12,
+   "dwellings_approved": 18878.0,
+   "dwellings_approved_12m": null
+  },
+  {
+   "month_label": "2015-05",
+   "inflation": null,
+   "trimmed_mean_inflation": null,
+   "inflation_source": null,
+   "cash_rate": 2.04,
+   "cash_rate_target": 2.0,
+   "real_cash_rate": null,
+   "unemployment_rate": 5.93,
+   "dwellings_approved": 22212.0,
+   "dwellings_approved_12m": null
+  },
+  {
+   "month_label": "2015-06",
+   "inflation": null,
+   "trimmed_mean_inflation": null,
+   "inflation_source": null,
+   "cash_rate": 2.0,
+   "cash_rate_target": 2.0,
+   "real_cash_rate": null,
+   "unemployment_rate": 6.01,
+   "dwellings_approved": 19683.0,
+   "dwellings_approved_12m": null
+  },
+  {
+   "month_label": "2015-07",
+   "inflation": null,
+   "trimmed_mean_inflation": null,
+   "inflation_source": null,
+   "cash_rate": 2.0,
+   "cash_rate_target": 2.0,
+   "real_cash_rate": null,
+   "unemployment_rate": 6.28,
+   "dwellings_approved": 21215.0,
+   "dwellings_approved_12m": null
+  },
+  {
+   "month_label": "2015-08",
+   "inflation": null,
+   "trimmed_mean_inflation": null,
+   "inflation_source": null,
+   "cash_rate": 2.0,
+   "cash_rate_target": 2.0,
+   "real_cash_rate": null,
+   "unemployment_rate": 6.11,
+   "dwellings_approved": 19262.0,
+   "dwellings_approved_12m": null
+  },
+  {
+   "month_label": "2015-09",
+   "inflation": null,
+   "trimmed_mean_inflation": null,
+   "inflation_source": null,
+   "cash_rate": 2.0,
+   "cash_rate_target": 2.0,
+   "real_cash_rate": null,
+   "unemployment_rate": 6.18,
+   "dwellings_approved": 21088.0,
+   "dwellings_approved_12m": null
+  },
+  {
+   "month_label": "2015-10",
+   "inflation": null,
+   "trimmed_mean_inflation": null,
+   "inflation_source": null,
+   "cash_rate": 2.0,
+   "cash_rate_target": 2.0,
+   "real_cash_rate": null,
+   "unemployment_rate": 5.92,
+   "dwellings_approved": 23076.0,
+   "dwellings_approved_12m": null
+  },
+  {
+   "month_label": "2015-11",
+   "inflation": null,
+   "trimmed_mean_inflation": null,
+   "inflation_source": null,
+   "cash_rate": 2.0,
+   "cash_rate_target": 2.0,
+   "real_cash_rate": null,
+   "unemployment_rate": 5.85,
+   "dwellings_approved": 18939.0,
+   "dwellings_approved_12m": null
+  },
+  {
+   "month_label": "2015-12",
+   "inflation": null,
+   "trimmed_mean_inflation": null,
+   "inflation_source": null,
+   "cash_rate": 2.0,
+   "cash_rate_target": 2.0,
+   "real_cash_rate": null,
+   "unemployment_rate": 5.74,
+   "dwellings_approved": 18898.0,
+   "dwellings_approved_12m": 239588.0
+  },
+  {
+   "month_label": "2016-01",
+   "inflation": 1.31,
+   "trimmed_mean_inflation": 1.73,
+   "inflation_source": "quarterly CPI",
+   "cash_rate": 2.0,
+   "cash_rate_target": 2.0,
+   "real_cash_rate": 0.27,
+   "unemployment_rate": 6.04,
+   "dwellings_approved": 15571.0,
+   "dwellings_approved_12m": 238249.0
+  },
+  {
+   "month_label": "2016-02",
+   "inflation": 1.31,
+   "trimmed_mean_inflation": 1.73,
+   "inflation_source": "quarterly CPI",
+   "cash_rate": 2.0,
+   "cash_rate_target": 2.0,
+   "real_cash_rate": 0.27,
+   "unemployment_rate": 5.7,
+   "dwellings_approved": 19276.0,
+   "dwellings_approved_12m": 239154.0
+  },
+  {
+   "month_label": "2016-03",
+   "inflation": 1.31,
+   "trimmed_mean_inflation": 1.73,
+   "inflation_source": "quarterly CPI",
+   "cash_rate": 2.0,
+   "cash_rate_target": 2.0,
+   "real_cash_rate": 0.27,
+   "unemployment_rate": 5.66,
+   "dwellings_approved": 20160.0,
+   "dwellings_approved_12m": 238258.0
+  },
+  {
+   "month_label": "2016-04",
+   "inflation": 1.02,
+   "trimmed_mean_inflation": 1.62,
+   "inflation_source": "quarterly CPI",
+   "cash_rate": 2.0,
+   "cash_rate_target": 2.0,
+   "real_cash_rate": 0.38,
+   "unemployment_rate": 5.65,
+   "dwellings_approved": 21377.0,
+   "dwellings_approved_12m": 240757.0
+  },
+  {
+   "month_label": "2016-05",
+   "inflation": 1.02,
+   "trimmed_mean_inflation": 1.62,
+   "inflation_source": "quarterly CPI",
+   "cash_rate": 1.77,
+   "cash_rate_target": 1.75,
+   "real_cash_rate": 0.15,
+   "unemployment_rate": 5.72,
+   "dwellings_approved": 21163.0,
+   "dwellings_approved_12m": 239708.0
+  },
+  {
+   "month_label": "2016-06",
+   "inflation": 1.02,
+   "trimmed_mean_inflation": 1.62,
+   "inflation_source": "quarterly CPI",
+   "cash_rate": 1.75,
+   "cash_rate_target": 1.75,
+   "real_cash_rate": 0.13,
+   "unemployment_rate": 5.7,
+   "dwellings_approved": 18659.0,
+   "dwellings_approved_12m": 238684.0
+  },
+  {
+   "month_label": "2016-07",
+   "inflation": 1.3,
+   "trimmed_mean_inflation": 1.64,
+   "inflation_source": "quarterly CPI",
+   "cash_rate": 1.75,
+   "cash_rate_target": 1.75,
+   "real_cash_rate": 0.11,
+   "unemployment_rate": 5.7,
+   "dwellings_approved": 22709.0,
+   "dwellings_approved_12m": 240178.0
+  },
+  {
+   "month_label": "2016-08",
+   "inflation": 1.3,
+   "trimmed_mean_inflation": 1.64,
+   "inflation_source": "quarterly CPI",
+   "cash_rate": 1.52,
+   "cash_rate_target": 1.5,
+   "real_cash_rate": -0.12,
+   "unemployment_rate": 5.63,
+   "dwellings_approved": 22448.0,
+   "dwellings_approved_12m": 243364.0
+  },
+  {
+   "month_label": "2016-09",
+   "inflation": 1.3,
+   "trimmed_mean_inflation": 1.64,
+   "inflation_source": "quarterly CPI",
    "cash_rate": 1.5,
    "cash_rate_target": 1.5,
-   "real_cash_rate": null,
+   "real_cash_rate": -0.14,
+   "unemployment_rate": 5.67,
+   "dwellings_approved": 20060.0,
+   "dwellings_approved_12m": 242336.0
+  },
+  {
+   "month_label": "2016-10",
+   "inflation": 1.48,
+   "trimmed_mean_inflation": 1.48,
+   "inflation_source": "quarterly CPI",
+   "cash_rate": 1.5,
+   "cash_rate_target": 1.5,
+   "real_cash_rate": 0.02,
+   "unemployment_rate": 5.6,
+   "dwellings_approved": 16868.0,
+   "dwellings_approved_12m": 236128.0
+  },
+  {
+   "month_label": "2016-11",
+   "inflation": 1.48,
+   "trimmed_mean_inflation": 1.48,
+   "inflation_source": "quarterly CPI",
+   "cash_rate": 1.5,
+   "cash_rate_target": 1.5,
+   "real_cash_rate": 0.02,
+   "unemployment_rate": 5.77,
+   "dwellings_approved": 19332.0,
+   "dwellings_approved_12m": 236521.0
+  },
+  {
+   "month_label": "2016-12",
+   "inflation": 1.48,
+   "trimmed_mean_inflation": 1.48,
+   "inflation_source": "quarterly CPI",
+   "cash_rate": 1.5,
+   "cash_rate_target": 1.5,
+   "real_cash_rate": 0.02,
+   "unemployment_rate": 5.84,
+   "dwellings_approved": 17129.0,
+   "dwellings_approved_12m": 234752.0
+  },
+  {
+   "month_label": "2017-01",
+   "inflation": 2.13,
+   "trimmed_mean_inflation": 1.71,
+   "inflation_source": "quarterly CPI",
+   "cash_rate": 1.5,
+   "cash_rate_target": 1.5,
+   "real_cash_rate": -0.21,
+   "unemployment_rate": 5.69,
+   "dwellings_approved": 14036.0,
+   "dwellings_approved_12m": 233217.0
+  },
+  {
+   "month_label": "2017-02",
+   "inflation": 2.13,
+   "trimmed_mean_inflation": 1.71,
+   "inflation_source": "quarterly CPI",
+   "cash_rate": 1.5,
+   "cash_rate_target": 1.5,
+   "real_cash_rate": -0.21,
+   "unemployment_rate": 5.9,
+   "dwellings_approved": 18104.0,
+   "dwellings_approved_12m": 232045.0
+  },
+  {
+   "month_label": "2017-03",
+   "inflation": 2.13,
+   "trimmed_mean_inflation": 1.71,
+   "inflation_source": "quarterly CPI",
+   "cash_rate": 1.5,
+   "cash_rate_target": 1.5,
+   "real_cash_rate": -0.21,
+   "unemployment_rate": 5.85,
+   "dwellings_approved": 17590.0,
+   "dwellings_approved_12m": 229475.0
+  },
+  {
+   "month_label": "2017-04",
+   "inflation": 1.93,
+   "trimmed_mean_inflation": 1.68,
+   "inflation_source": "quarterly CPI",
+   "cash_rate": 1.5,
+   "cash_rate_target": 1.5,
+   "real_cash_rate": -0.18,
+   "unemployment_rate": 5.61,
+   "dwellings_approved": 16660.0,
+   "dwellings_approved_12m": 224758.0
+  },
+  {
+   "month_label": "2017-05",
+   "inflation": 1.93,
+   "trimmed_mean_inflation": 1.68,
+   "inflation_source": "quarterly CPI",
+   "cash_rate": 1.5,
+   "cash_rate_target": 1.5,
+   "real_cash_rate": -0.18,
+   "unemployment_rate": 5.55,
+   "dwellings_approved": 18411.0,
+   "dwellings_approved_12m": 222006.0
+  },
+  {
+   "month_label": "2017-06",
+   "inflation": 1.93,
+   "trimmed_mean_inflation": 1.68,
+   "inflation_source": "quarterly CPI",
+   "cash_rate": 1.5,
+   "cash_rate_target": 1.5,
+   "real_cash_rate": -0.18,
+   "unemployment_rate": 5.63,
+   "dwellings_approved": 19139.0,
+   "dwellings_approved_12m": 222486.0
+  },
+  {
+   "month_label": "2017-07",
+   "inflation": 1.83,
+   "trimmed_mean_inflation": 1.74,
+   "inflation_source": "quarterly CPI",
+   "cash_rate": 1.5,
+   "cash_rate_target": 1.5,
+   "real_cash_rate": -0.24,
+   "unemployment_rate": 5.61,
+   "dwellings_approved": 19881.0,
+   "dwellings_approved_12m": 219658.0
+  },
+  {
+   "month_label": "2017-08",
+   "inflation": 1.83,
+   "trimmed_mean_inflation": 1.74,
+   "inflation_source": "quarterly CPI",
+   "cash_rate": 1.5,
+   "cash_rate_target": 1.5,
+   "real_cash_rate": -0.24,
+   "unemployment_rate": 5.54,
+   "dwellings_approved": 19956.0,
+   "dwellings_approved_12m": 217166.0
+  },
+  {
+   "month_label": "2017-09",
+   "inflation": 1.83,
+   "trimmed_mean_inflation": 1.74,
+   "inflation_source": "quarterly CPI",
+   "cash_rate": 1.5,
+   "cash_rate_target": 1.5,
+   "real_cash_rate": -0.24,
+   "unemployment_rate": 5.46,
+   "dwellings_approved": 20485.0,
+   "dwellings_approved_12m": 217591.0
+  },
+  {
+   "month_label": "2017-10",
+   "inflation": 1.91,
+   "trimmed_mean_inflation": 1.68,
+   "inflation_source": "quarterly CPI",
+   "cash_rate": 1.5,
+   "cash_rate_target": 1.5,
+   "real_cash_rate": -0.18,
+   "unemployment_rate": 5.41,
+   "dwellings_approved": 20332.0,
+   "dwellings_approved_12m": 221055.0
+  },
+  {
+   "month_label": "2017-11",
+   "inflation": 1.91,
+   "trimmed_mean_inflation": 1.68,
+   "inflation_source": "quarterly CPI",
+   "cash_rate": 1.5,
+   "cash_rate_target": 1.5,
+   "real_cash_rate": -0.18,
+   "unemployment_rate": 5.46,
+   "dwellings_approved": 23699.0,
+   "dwellings_approved_12m": 225422.0
+  },
+  {
+   "month_label": "2017-12",
+   "inflation": 1.91,
+   "trimmed_mean_inflation": 1.68,
+   "inflation_source": "quarterly CPI",
+   "cash_rate": 1.5,
+   "cash_rate_target": 1.5,
+   "real_cash_rate": -0.18,
+   "unemployment_rate": 5.62,
+   "dwellings_approved": 16200.0,
+   "dwellings_approved_12m": 224493.0
+  },
+  {
+   "month_label": "2018-01",
+   "inflation": 1.9,
+   "trimmed_mean_inflation": 1.71,
+   "inflation_source": "quarterly CPI",
+   "cash_rate": 1.5,
+   "cash_rate_target": 1.5,
+   "real_cash_rate": -0.21,
+   "unemployment_rate": 5.53,
+   "dwellings_approved": 16490.0,
+   "dwellings_approved_12m": 226947.0
+  },
+  {
+   "month_label": "2018-02",
+   "inflation": 1.9,
+   "trimmed_mean_inflation": 1.71,
+   "inflation_source": "quarterly CPI",
+   "cash_rate": 1.5,
+   "cash_rate_target": 1.5,
+   "real_cash_rate": -0.21,
+   "unemployment_rate": 5.58,
+   "dwellings_approved": 18483.0,
+   "dwellings_approved_12m": 227326.0
+  },
+  {
+   "month_label": "2018-03",
+   "inflation": 1.9,
+   "trimmed_mean_inflation": 1.71,
+   "inflation_source": "quarterly CPI",
+   "cash_rate": 1.5,
+   "cash_rate_target": 1.5,
+   "real_cash_rate": -0.21,
+   "unemployment_rate": 5.53,
+   "dwellings_approved": 19942.0,
+   "dwellings_approved_12m": 229678.0
+  },
+  {
+   "month_label": "2018-04",
+   "inflation": 2.08,
+   "trimmed_mean_inflation": 1.64,
+   "inflation_source": "quarterly CPI",
+   "cash_rate": 1.5,
+   "cash_rate_target": 1.5,
+   "real_cash_rate": -0.14,
+   "unemployment_rate": 5.55,
+   "dwellings_approved": 17523.0,
+   "dwellings_approved_12m": 230541.0
+  },
+  {
+   "month_label": "2018-05",
+   "inflation": 2.08,
+   "trimmed_mean_inflation": 1.64,
+   "inflation_source": "quarterly CPI",
+   "cash_rate": 1.5,
+   "cash_rate_target": 1.5,
+   "real_cash_rate": -0.14,
+   "unemployment_rate": 5.44,
+   "dwellings_approved": 19367.0,
+   "dwellings_approved_12m": 231497.0
+  },
+  {
+   "month_label": "2018-06",
+   "inflation": 2.08,
+   "trimmed_mean_inflation": 1.64,
+   "inflation_source": "quarterly CPI",
+   "cash_rate": 1.5,
+   "cash_rate_target": 1.5,
+   "real_cash_rate": -0.14,
+   "unemployment_rate": 5.35,
+   "dwellings_approved": 19746.0,
+   "dwellings_approved_12m": 232104.0
+  },
+  {
+   "month_label": "2018-07",
+   "inflation": 1.89,
+   "trimmed_mean_inflation": 1.69,
+   "inflation_source": "quarterly CPI",
+   "cash_rate": 1.5,
+   "cash_rate_target": 1.5,
+   "real_cash_rate": -0.19,
+   "unemployment_rate": 5.3,
+   "dwellings_approved": 19398.0,
+   "dwellings_approved_12m": 231621.0
+  },
+  {
+   "month_label": "2018-08",
+   "inflation": 1.89,
+   "trimmed_mean_inflation": 1.69,
+   "inflation_source": "quarterly CPI",
+   "cash_rate": 1.5,
+   "cash_rate_target": 1.5,
+   "real_cash_rate": -0.19,
+   "unemployment_rate": 5.25,
+   "dwellings_approved": 17333.0,
+   "dwellings_approved_12m": 228998.0
+  },
+  {
+   "month_label": "2018-09",
+   "inflation": 1.89,
+   "trimmed_mean_inflation": 1.69,
+   "inflation_source": "quarterly CPI",
+   "cash_rate": 1.5,
+   "cash_rate_target": 1.5,
+   "real_cash_rate": -0.19,
+   "unemployment_rate": 5.02,
+   "dwellings_approved": 16511.0,
+   "dwellings_approved_12m": 225024.0
+  },
+  {
+   "month_label": "2018-10",
+   "inflation": 1.78,
+   "trimmed_mean_inflation": 1.79,
+   "inflation_source": "quarterly CPI",
+   "cash_rate": 1.5,
+   "cash_rate_target": 1.5,
+   "real_cash_rate": -0.29,
+   "unemployment_rate": 5.0,
+   "dwellings_approved": 18242.0,
+   "dwellings_approved_12m": 222934.0
+  },
+  {
+   "month_label": "2018-11",
+   "inflation": 1.78,
+   "trimmed_mean_inflation": 1.79,
+   "inflation_source": "quarterly CPI",
+   "cash_rate": 1.5,
+   "cash_rate_target": 1.5,
+   "real_cash_rate": -0.29,
+   "unemployment_rate": 5.11,
+   "dwellings_approved": 16035.0,
+   "dwellings_approved_12m": 215270.0
+  },
+  {
+   "month_label": "2018-12",
+   "inflation": 1.78,
+   "trimmed_mean_inflation": 1.79,
+   "inflation_source": "quarterly CPI",
+   "cash_rate": 1.5,
+   "cash_rate_target": 1.5,
+   "real_cash_rate": -0.29,
+   "unemployment_rate": 5.02,
+   "dwellings_approved": 12387.0,
+   "dwellings_approved_12m": 211457.0
+  },
+  {
+   "month_label": "2019-01",
+   "inflation": 1.33,
+   "trimmed_mean_inflation": 1.58,
+   "inflation_source": "quarterly CPI",
+   "cash_rate": 1.5,
+   "cash_rate_target": 1.5,
+   "real_cash_rate": -0.08,
    "unemployment_rate": 5.05,
    "dwellings_approved": 12051.0,
-   "dwellings_approved_12m": null
+   "dwellings_approved_12m": 207018.0
   },
   {
    "month_label": "2019-02",
-   "inflation": null,
-   "trimmed_mean_inflation": null,
-   "inflation_source": null,
+   "inflation": 1.33,
+   "trimmed_mean_inflation": 1.58,
+   "inflation_source": "quarterly CPI",
    "cash_rate": 1.5,
    "cash_rate_target": 1.5,
-   "real_cash_rate": null,
+   "real_cash_rate": -0.08,
    "unemployment_rate": 5.0,
    "dwellings_approved": 16154.0,
-   "dwellings_approved_12m": null
+   "dwellings_approved_12m": 204689.0
   },
   {
    "month_label": "2019-03",
-   "inflation": null,
-   "trimmed_mean_inflation": null,
-   "inflation_source": null,
+   "inflation": 1.33,
+   "trimmed_mean_inflation": 1.58,
+   "inflation_source": "quarterly CPI",
    "cash_rate": 1.5,
    "cash_rate_target": 1.5,
-   "real_cash_rate": null,
+   "real_cash_rate": -0.08,
    "unemployment_rate": 5.09,
    "dwellings_approved": 15465.0,
-   "dwellings_approved_12m": null
+   "dwellings_approved_12m": 200212.0
   },
   {
    "month_label": "2019-04",
-   "inflation": null,
-   "trimmed_mean_inflation": null,
-   "inflation_source": null,
+   "inflation": 1.59,
+   "trimmed_mean_inflation": 1.55,
+   "inflation_source": "quarterly CPI",
    "cash_rate": 1.5,
    "cash_rate_target": 1.5,
-   "real_cash_rate": null,
+   "real_cash_rate": -0.05,
    "unemployment_rate": 5.22,
    "dwellings_approved": 13810.0,
-   "dwellings_approved_12m": null
+   "dwellings_approved_12m": 196499.0
   },
   {
    "month_label": "2019-05",
-   "inflation": null,
-   "trimmed_mean_inflation": null,
-   "inflation_source": null,
+   "inflation": 1.59,
+   "trimmed_mean_inflation": 1.55,
+   "inflation_source": "quarterly CPI",
    "cash_rate": 1.5,
    "cash_rate_target": 1.5,
-   "real_cash_rate": null,
+   "real_cash_rate": -0.05,
    "unemployment_rate": 5.2,
    "dwellings_approved": 15848.0,
-   "dwellings_approved_12m": null
+   "dwellings_approved_12m": 192980.0
   },
   {
    "month_label": "2019-06",
-   "inflation": null,
-   "trimmed_mean_inflation": null,
-   "inflation_source": null,
+   "inflation": 1.59,
+   "trimmed_mean_inflation": 1.55,
+   "inflation_source": "quarterly CPI",
    "cash_rate": 1.28,
    "cash_rate_target": 1.25,
-   "real_cash_rate": null,
+   "real_cash_rate": -0.27,
    "unemployment_rate": 5.27,
    "dwellings_approved": 14420.0,
-   "dwellings_approved_12m": null
+   "dwellings_approved_12m": 187654.0
   },
   {
    "month_label": "2019-07",
-   "inflation": null,
-   "trimmed_mean_inflation": null,
-   "inflation_source": null,
+   "inflation": 1.67,
+   "trimmed_mean_inflation": 1.51,
+   "inflation_source": "quarterly CPI",
    "cash_rate": 1.02,
    "cash_rate_target": 1.0,
-   "real_cash_rate": null,
+   "real_cash_rate": -0.49,
    "unemployment_rate": 5.28,
    "dwellings_approved": 14624.0,
-   "dwellings_approved_12m": null
+   "dwellings_approved_12m": 182880.0
   },
   {
    "month_label": "2019-08",
-   "inflation": null,
-   "trimmed_mean_inflation": null,
-   "inflation_source": null,
+   "inflation": 1.67,
+   "trimmed_mean_inflation": 1.51,
+   "inflation_source": "quarterly CPI",
    "cash_rate": 1.0,
    "cash_rate_target": 1.0,
-   "real_cash_rate": null,
+   "real_cash_rate": -0.51,
    "unemployment_rate": 5.26,
    "dwellings_approved": 14177.0,
-   "dwellings_approved_12m": null
+   "dwellings_approved_12m": 179724.0
   },
   {
    "month_label": "2019-09",
-   "inflation": null,
-   "trimmed_mean_inflation": null,
-   "inflation_source": null,
+   "inflation": 1.67,
+   "trimmed_mean_inflation": 1.51,
+   "inflation_source": "quarterly CPI",
    "cash_rate": 1.0,
    "cash_rate_target": 1.0,
-   "real_cash_rate": null,
+   "real_cash_rate": -0.51,
    "unemployment_rate": 5.23,
    "dwellings_approved": 14674.0,
-   "dwellings_approved_12m": null
+   "dwellings_approved_12m": 177887.0
   },
   {
    "month_label": "2019-10",
-   "inflation": null,
-   "trimmed_mean_inflation": null,
-   "inflation_source": null,
+   "inflation": 1.84,
+   "trimmed_mean_inflation": 1.49,
+   "inflation_source": "quarterly CPI",
    "cash_rate": 0.76,
    "cash_rate_target": 0.75,
-   "real_cash_rate": null,
+   "real_cash_rate": -0.73,
    "unemployment_rate": 5.3,
    "dwellings_approved": 15108.0,
-   "dwellings_approved_12m": null
+   "dwellings_approved_12m": 174753.0
   },
   {
    "month_label": "2019-11",
-   "inflation": null,
-   "trimmed_mean_inflation": null,
-   "inflation_source": null,
+   "inflation": 1.84,
+   "trimmed_mean_inflation": 1.49,
+   "inflation_source": "quarterly CPI",
    "cash_rate": 0.75,
    "cash_rate_target": 0.75,
-   "real_cash_rate": null,
+   "real_cash_rate": -0.74,
    "unemployment_rate": 5.17,
    "dwellings_approved": 15692.0,
-   "dwellings_approved_12m": null
+   "dwellings_approved_12m": 174410.0
   },
   {
    "month_label": "2019-12",
-   "inflation": null,
-   "trimmed_mean_inflation": null,
-   "inflation_source": null,
+   "inflation": 1.84,
+   "trimmed_mean_inflation": 1.49,
+   "inflation_source": "quarterly CPI",
    "cash_rate": 0.75,
    "cash_rate_target": 0.75,
-   "real_cash_rate": null,
+   "real_cash_rate": -0.74,
    "unemployment_rate": 5.04,
    "dwellings_approved": 14503.0,
    "dwellings_approved_12m": 176526.0
@@ -948,11 +1524,11 @@
   {
    "month_label": "2025-04",
    "inflation": 2.37,
-   "trimmed_mean_inflation": 3.18,
+   "trimmed_mean_inflation": 3.17,
    "inflation_source": "monthly CPI",
    "cash_rate": 4.1,
    "cash_rate_target": 4.1,
-   "real_cash_rate": 0.92,
+   "real_cash_rate": 0.93,
    "unemployment_rate": 4.06,
    "dwellings_approved": 14670.0,
    "dwellings_approved_12m": 183140.0
@@ -1008,11 +1584,11 @@
   {
    "month_label": "2025-09",
    "inflation": 3.58,
-   "trimmed_mean_inflation": 3.24,
+   "trimmed_mean_inflation": 3.2,
    "inflation_source": "monthly CPI",
    "cash_rate": 3.6,
    "cash_rate_target": 3.6,
-   "real_cash_rate": 0.36,
+   "real_cash_rate": 0.4,
    "unemployment_rate": 4.43,
    "dwellings_approved": 18598.0,
    "dwellings_approved_12m": 193753.0
@@ -1020,11 +1596,11 @@
   {
    "month_label": "2025-10",
    "inflation": 3.81,
-   "trimmed_mean_inflation": 3.31,
+   "trimmed_mean_inflation": 3.28,
    "inflation_source": "monthly CPI",
    "cash_rate": 3.6,
    "cash_rate_target": 3.6,
-   "real_cash_rate": 0.29,
+   "real_cash_rate": 0.32,
    "unemployment_rate": 4.32,
    "dwellings_approved": 17566.0,
    "dwellings_approved_12m": 193381.0
@@ -1032,11 +1608,11 @@
   {
    "month_label": "2025-11",
    "inflation": 3.44,
-   "trimmed_mean_inflation": 3.25,
+   "trimmed_mean_inflation": 3.23,
    "inflation_source": "monthly CPI",
    "cash_rate": 3.6,
    "cash_rate_target": 3.6,
-   "real_cash_rate": 0.35,
+   "real_cash_rate": 0.37,
    "unemployment_rate": 4.31,
    "dwellings_approved": 18579.0,
    "dwellings_approved_12m": 196044.0
@@ -1044,11 +1620,11 @@
   {
    "month_label": "2025-12",
    "inflation": 3.76,
-   "trimmed_mean_inflation": 3.32,
+   "trimmed_mean_inflation": 3.3,
    "inflation_source": "monthly CPI",
    "cash_rate": 3.6,
    "cash_rate_target": 3.6,
-   "real_cash_rate": 0.28,
+   "real_cash_rate": 0.3,
    "unemployment_rate": 4.12,
    "dwellings_approved": 15176.0,
    "dwellings_approved_12m": 196902.0
@@ -1056,11 +1632,11 @@
   {
    "month_label": "2026-01",
    "inflation": 3.84,
-   "trimmed_mean_inflation": 3.34,
+   "trimmed_mean_inflation": 3.32,
    "inflation_source": "monthly CPI",
    "cash_rate": 3.6,
    "cash_rate_target": 3.6,
-   "real_cash_rate": 0.26,
+   "real_cash_rate": 0.28,
    "unemployment_rate": 4.08,
    "dwellings_approved": 10696.0,
    "dwellings_approved_12m": 194277.0
@@ -1068,11 +1644,11 @@
   {
    "month_label": "2026-02",
    "inflation": 3.73,
-   "trimmed_mean_inflation": 3.28,
+   "trimmed_mean_inflation": 3.26,
    "inflation_source": "monthly CPI",
    "cash_rate": 3.83,
    "cash_rate_target": 3.85,
-   "real_cash_rate": 0.55,
+   "real_cash_rate": 0.57,
    "unemployment_rate": 4.31,
    "dwellings_approved": 19227.0,
    "dwellings_approved_12m": 197249.0
@@ -1080,11 +1656,11 @@
   {
    "month_label": "2026-03",
    "inflation": 4.57,
-   "trimmed_mean_inflation": 3.34,
+   "trimmed_mean_inflation": 3.32,
    "inflation_source": "monthly CPI",
    "cash_rate": 3.96,
    "cash_rate_target": 4.1,
-   "real_cash_rate": 0.62,
+   "real_cash_rate": 0.64,
    "unemployment_rate": 4.29,
    "dwellings_approved": 18139.0,
    "dwellings_approved_12m": 199654.0
@@ -1092,11 +1668,11 @@
   {
    "month_label": "2026-04",
    "inflation": 4.18,
-   "trimmed_mean_inflation": 3.37,
+   "trimmed_mean_inflation": 3.34,
    "inflation_source": "monthly CPI",
    "cash_rate": 4.1,
    "cash_rate_target": 4.1,
-   "real_cash_rate": 0.73,
+   "real_cash_rate": 0.76,
    "unemployment_rate": 4.5,
    "dwellings_approved": 17633.0,
    "dwellings_approved_12m": 202617.0
@@ -1104,11 +1680,11 @@
   {
    "month_label": "2026-05",
    "inflation": 3.96,
-   "trimmed_mean_inflation": 3.54,
+   "trimmed_mean_inflation": 3.51,
    "inflation_source": "monthly CPI",
    "cash_rate": 4.31,
    "cash_rate_target": 4.35,
-   "real_cash_rate": 0.77,
+   "real_cash_rate": 0.8,
    "unemployment_rate": 4.39,
    "dwellings_approved": 17201.0,
    "dwellings_approved_12m": 203008.0
@@ -1116,11 +1692,11 @@
   {
    "month_label": "2026-06",
    "inflation": 3.75,
-   "trimmed_mean_inflation": 3.62,
+   "trimmed_mean_inflation": 3.6,
    "inflation_source": "monthly CPI",
    "cash_rate": 4.35,
    "cash_rate_target": 4.35,
-   "real_cash_rate": 0.73,
+   "real_cash_rate": 0.75,
    "unemployment_rate": 4.45,
    "dwellings_approved": 19090.0,
    "dwellings_approved_12m": 205551.0
@@ -1128,11 +1704,11 @@
   {
    "month_label": "2026-07",
    "inflation": 3.45,
-   "trimmed_mean_inflation": 3.63,
+   "trimmed_mean_inflation": 3.6,
    "inflation_source": "monthly CPI",
    "cash_rate": 4.35,
    "cash_rate_target": 4.35,
-   "real_cash_rate": 0.72,
+   "real_cash_rate": 0.75,
    "unemployment_rate": 4.49,
    "dwellings_approved": 19273.0,
    "dwellings_approved_12m": 206555.0
@@ -1140,23 +1716,23 @@
   {
    "month_label": "2026-08",
    "inflation": 3.97,
-   "trimmed_mean_inflation": 3.57,
+   "trimmed_mean_inflation": 3.54,
    "inflation_source": "monthly CPI",
    "cash_rate": 4.35,
    "cash_rate_target": 4.35,
-   "real_cash_rate": 0.78,
+   "real_cash_rate": 0.81,
    "unemployment_rate": 4.65,
    "dwellings_approved": 16967.0,
    "dwellings_approved_12m": 208145.0
   },
   {
    "month_label": "2026-09",
-   "inflation": null,
-   "trimmed_mean_inflation": null,
-   "inflation_source": null,
+   "inflation": 4.34,
+   "trimmed_mean_inflation": 3.59,
+   "inflation_source": "monthly CPI",
    "cash_rate": 4.36,
    "cash_rate_target": 4.6,
-   "real_cash_rate": null,
+   "real_cash_rate": 0.77,
    "unemployment_rate": 4.72,
    "dwellings_approved": null,
    "dwellings_approved_12m": null
@@ -1175,6 +1751,118 @@
   }
  ],
  "real_wages": [
+  {
+   "quarter_label": "2016-Q1",
+   "wage_growth": 2.07,
+   "inflation": 1.31,
+   "real_wage_growth": 0.75,
+   "inflation_source": "quarterly CPI"
+  },
+  {
+   "quarter_label": "2016-Q2",
+   "wage_growth": 2.06,
+   "inflation": 1.02,
+   "real_wage_growth": 1.03,
+   "inflation_source": "quarterly CPI"
+  },
+  {
+   "quarter_label": "2016-Q3",
+   "wage_growth": 1.88,
+   "inflation": 1.3,
+   "real_wage_growth": 0.57,
+   "inflation_source": "quarterly CPI"
+  },
+  {
+   "quarter_label": "2016-Q4",
+   "wage_growth": 1.87,
+   "inflation": 1.48,
+   "real_wage_growth": 0.38,
+   "inflation_source": "quarterly CPI"
+  },
+  {
+   "quarter_label": "2017-Q1",
+   "wage_growth": 1.95,
+   "inflation": 2.13,
+   "real_wage_growth": -0.18,
+   "inflation_source": "quarterly CPI"
+  },
+  {
+   "quarter_label": "2017-Q2",
+   "wage_growth": 1.94,
+   "inflation": 1.93,
+   "real_wage_growth": 0.01,
+   "inflation_source": "quarterly CPI"
+  },
+  {
+   "quarter_label": "2017-Q3",
+   "wage_growth": 2.01,
+   "inflation": 1.83,
+   "real_wage_growth": 0.18,
+   "inflation_source": "quarterly CPI"
+  },
+  {
+   "quarter_label": "2017-Q4",
+   "wage_growth": 2.08,
+   "inflation": 1.91,
+   "real_wage_growth": 0.17,
+   "inflation_source": "quarterly CPI"
+  },
+  {
+   "quarter_label": "2018-Q1",
+   "wage_growth": 1.99,
+   "inflation": 1.9,
+   "real_wage_growth": 0.09,
+   "inflation_source": "quarterly CPI"
+  },
+  {
+   "quarter_label": "2018-Q2",
+   "wage_growth": 2.14,
+   "inflation": 2.08,
+   "real_wage_growth": 0.06,
+   "inflation_source": "quarterly CPI"
+  },
+  {
+   "quarter_label": "2018-Q3",
+   "wage_growth": 2.29,
+   "inflation": 1.89,
+   "real_wage_growth": 0.39,
+   "inflation_source": "quarterly CPI"
+  },
+  {
+   "quarter_label": "2018-Q4",
+   "wage_growth": 2.27,
+   "inflation": 1.78,
+   "real_wage_growth": 0.48,
+   "inflation_source": "quarterly CPI"
+  },
+  {
+   "quarter_label": "2019-Q1",
+   "wage_growth": 2.34,
+   "inflation": 1.33,
+   "real_wage_growth": 1.0,
+   "inflation_source": "quarterly CPI"
+  },
+  {
+   "quarter_label": "2019-Q2",
+   "wage_growth": 2.33,
+   "inflation": 1.59,
+   "real_wage_growth": 0.73,
+   "inflation_source": "quarterly CPI"
+  },
+  {
+   "quarter_label": "2019-Q3",
+   "wage_growth": 2.23,
+   "inflation": 1.67,
+   "real_wage_growth": 0.55,
+   "inflation_source": "quarterly CPI"
+  },
+  {
+   "quarter_label": "2019-Q4",
+   "wage_growth": 2.22,
+   "inflation": 1.84,
+   "real_wage_growth": 0.37,
+   "inflation_source": "quarterly CPI"
+  },
   {
    "quarter_label": "2020-Q1",
    "wage_growth": 2.21,
@@ -1361,75 +2049,75 @@
  "loads": [
   {
    "source_id": "cash_rate",
-   "mode": "snapshot",
-   "rows": 93,
+   "mode": "live",
+   "rows": 141,
    "status": "pass",
    "problems": "",
-   "fetched_at": "2026-10-28"
+   "fetched_at": "2026-11-01"
   },
   {
    "source_id": "cash_rate_target",
-   "mode": "snapshot",
-   "rows": 94,
+   "mode": "live",
+   "rows": 142,
    "status": "pass",
    "problems": "",
-   "fetched_at": "2026-10-28"
+   "fetched_at": "2026-11-01"
   },
   {
    "source_id": "cpi_monthly_all_groups",
-   "mode": "snapshot",
-   "rows": 29,
+   "mode": "live",
+   "rows": 30,
    "status": "pass",
    "problems": "",
-   "fetched_at": "2026-10-28"
+   "fetched_at": "2026-11-01"
   },
   {
    "source_id": "cpi_monthly_trimmed_mean",
-   "mode": "snapshot",
-   "rows": 29,
+   "mode": "live",
+   "rows": 30,
    "status": "pass",
    "problems": "",
-   "fetched_at": "2026-10-28"
+   "fetched_at": "2026-11-01"
   },
   {
    "source_id": "cpi_quarterly_all_groups",
-   "mode": "snapshot",
-   "rows": 27,
+   "mode": "live",
+   "rows": 43,
    "status": "pass",
    "problems": "",
-   "fetched_at": "2026-10-28"
+   "fetched_at": "2026-11-01"
   },
   {
    "source_id": "cpi_quarterly_trimmed_mean",
-   "mode": "snapshot",
-   "rows": 27,
+   "mode": "live",
+   "rows": 43,
    "status": "pass",
    "problems": "",
-   "fetched_at": "2026-10-28"
+   "fetched_at": "2026-11-01"
   },
   {
    "source_id": "dwelling_approvals",
-   "mode": "snapshot",
-   "rows": 92,
+   "mode": "live",
+   "rows": 140,
    "status": "pass",
    "problems": "",
-   "fetched_at": "2026-10-28"
+   "fetched_at": "2026-11-01"
   },
   {
    "source_id": "unemployment_rate",
-   "mode": "snapshot",
-   "rows": 93,
+   "mode": "live",
+   "rows": 141,
    "status": "pass",
    "problems": "",
-   "fetched_at": "2026-10-28"
+   "fetched_at": "2026-11-01"
   },
   {
    "source_id": "wpi",
-   "mode": "snapshot",
-   "rows": 34,
+   "mode": "live",
+   "rows": 46,
    "status": "pass",
    "problems": "",
-   "fetched_at": "2026-10-28"
+   "fetched_at": "2026-11-01"
   }
  ],
  "lineage": {
@@ -1628,31 +2316,31 @@
   "tests": 30
  },
  "contracts": {
-  "run_at": "2026-10-28T01:06:53Z",
-  "mode": "snapshot",
-  "as_of": "2026-10-28",
+  "run_at": "2026-11-01T20:58:06Z",
+  "mode": "live",
+  "as_of": "2026-11-01",
   "sources": [
    {
     "id": "cpi_monthly_all_groups",
     "label": "CPI, all groups, Australia (monthly index)",
     "status": "pass",
-    "rows": 29,
-    "latest": "2026-08",
+    "rows": 30,
+    "latest": "2026-09",
     "problems": []
    },
    {
     "id": "cpi_monthly_trimmed_mean",
     "label": "CPI, trimmed mean, Australia (monthly index)",
     "status": "pass",
-    "rows": 29,
-    "latest": "2026-08",
+    "rows": 30,
+    "latest": "2026-09",
     "problems": []
    },
    {
     "id": "cpi_quarterly_all_groups",
     "label": "CPI, all groups, Australia (quarterly index, ended Sep 2025)",
     "status": "pass",
-    "rows": 27,
+    "rows": 43,
     "latest": "2025-Q3",
     "problems": []
    },
@@ -1660,7 +2348,7 @@
     "id": "cpi_quarterly_trimmed_mean",
     "label": "CPI, trimmed mean, Australia (quarterly index, ended Sep 2025)",
     "status": "pass",
-    "rows": 27,
+    "rows": 43,
     "latest": "2025-Q3",
     "problems": []
    },
@@ -1668,7 +2356,7 @@
     "id": "unemployment_rate",
     "label": "Unemployment rate, persons, seasonally adjusted, Australia",
     "status": "pass",
-    "rows": 93,
+    "rows": 141,
     "latest": "2026-09",
     "problems": []
    },
@@ -1676,7 +2364,7 @@
     "id": "wpi",
     "label": "Wage Price Index, total hourly rates excl. bonuses, all sectors, seasonally adjusted",
     "status": "pass",
-    "rows": 34,
+    "rows": 46,
     "latest": "2026-Q2",
     "problems": []
    },
@@ -1684,7 +2372,7 @@
     "id": "dwelling_approvals",
     "label": "Dwelling units approved, total residential, Australia (original)",
     "status": "pass",
-    "rows": 92,
+    "rows": 140,
     "latest": "2026-08",
     "problems": []
    },
@@ -1692,7 +2380,7 @@
     "id": "cash_rate",
     "label": "RBA cash rate target (monthly average)",
     "status": "pass",
-    "rows": 93,
+    "rows": 141,
     "latest": "2026-09",
     "problems": []
    },
@@ -1700,7 +2388,7 @@
     "id": "cash_rate_target",
     "label": "RBA cash rate target (end of month, from the daily table)",
     "status": "pass",
-    "rows": 94,
+    "rows": 142,
     "latest": "2026-10",
     "problems": []
    }

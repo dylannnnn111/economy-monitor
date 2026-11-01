@@ -1,29 +1,29 @@
 {
-  "run_at": "2026-10-28T01:06:53Z",
-  "mode": "snapshot",
-  "as_of": "2026-10-28",
+  "run_at": "2026-11-01T20:58:06Z",
+  "mode": "live",
+  "as_of": "2026-11-01",
   "sources": [
     {
       "id": "cpi_monthly_all_groups",
       "label": "CPI, all groups, Australia (monthly index)",
       "status": "pass",
-      "rows": 29,
-      "latest": "2026-08",
+      "rows": 30,
+      "latest": "2026-09",
       "problems": []
     },
     {
       "id": "cpi_monthly_trimmed_mean",
       "label": "CPI, trimmed mean, Australia (monthly index)",
       "status": "pass",
-      "rows": 29,
-      "latest": "2026-08",
+      "rows": 30,
+      "latest": "2026-09",
       "problems": []
     },
     {
       "id": "cpi_quarterly_all_groups",
       "label": "CPI, all groups, Australia (quarterly index, ended Sep 2025)",
       "status": "pass",
-      "rows": 27,
+      "rows": 43,
       "latest": "2025-Q3",
       "problems": []
     },
@@ -31,7 +31,7 @@
       "id": "cpi_quarterly_trimmed_mean",
       "label": "CPI, trimmed mean, Australia (quarterly index, ended Sep 2025)",
       "status": "pass",
-      "rows": 27,
+      "rows": 43,
       "latest": "2025-Q3",
       "problems": []
     },
@@ -39,7 +39,7 @@
       "id": "unemployment_rate",
       "label": "Unemployment rate, persons, seasonally adjusted, Australia",
       "status": "pass",
-      "rows": 93,
+      "rows": 141,
       "latest": "2026-09",
       "problems": []
     },
@@ -47,7 +47,7 @@
       "id": "wpi",
       "label": "Wage Price Index, total hourly rates excl. bonuses, all sectors, seasonally adjusted",
       "status": "pass",
-      "rows": 34,
+      "rows": 46,
       "latest": "2026-Q2",
       "problems": []
     },
@@ -55,7 +55,7 @@
       "id": "dwelling_approvals",
       "label": "Dwelling units approved, total residential, Australia (original)",
       "status": "pass",
-      "rows": 92,
+      "rows": 140,
       "latest": "2026-08",
       "problems": []
     },
@@ -63,7 +63,7 @@
       "id": "cash_rate",
       "label": "RBA cash rate target (monthly average)",
       "status": "pass",
-      "rows": 93,
+      "rows": 141,
       "latest": "2026-09",
       "problems": []
     },
@@ -71,7 +71,7 @@
       "id": "cash_rate_target",
       "label": "RBA cash rate target (end of month, from the daily table)",
       "status": "pass",
-      "rows": 94,
+      "rows": 142,
       "latest": "2026-10",
       "problems": []
     }
