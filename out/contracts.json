@@ -1,7 +1,7 @@
 {
-  "run_at": "2026-11-01T20:58:06Z",
+  "run_at": "2026-11-02T00:52:51Z",
   "mode": "live",
-  "as_of": "2026-11-01",
+  "as_of": "2026-11-02",
   "sources": [
     {
       "id": "cpi_monthly_all_groups",
@@ -63,8 +63,8 @@
       "id": "cash_rate",
       "label": "RBA cash rate target (monthly average)",
       "status": "pass",
-      "rows": 141,
-      "latest": "2026-09",
+      "rows": 142,
+      "latest": "2026-10",
       "problems": []
     },
     {

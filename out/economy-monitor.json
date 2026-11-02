@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-01T20:58:30Z",
+ "generated_at": "2026-11-02T00:53:12Z",
  "headline": [
   {
    "measure": "inflation",
@@ -1742,7 +1742,7 @@
    "inflation": null,
    "trimmed_mean_inflation": null,
    "inflation_source": null,
-   "cash_rate": null,
+   "cash_rate": 4.6,
    "cash_rate_target": 4.6,
    "real_cash_rate": null,
    "unemployment_rate": null,
@@ -2050,10 +2050,10 @@
   {
    "source_id": "cash_rate",
    "mode": "live",
-   "rows": 141,
+   "rows": 142,
    "status": "pass",
    "problems": "",
-   "fetched_at": "2026-11-01"
+   "fetched_at": "2026-11-02"
   },
   {
    "source_id": "cash_rate_target",
@@ -2061,7 +2061,7 @@
    "rows": 142,
    "status": "pass",
    "problems": "",
-   "fetched_at": "2026-11-01"
+   "fetched_at": "2026-11-02"
   },
   {
    "source_id": "cpi_monthly_all_groups",
@@ -2069,7 +2069,7 @@
    "rows": 30,
    "status": "pass",
    "problems": "",
-   "fetched_at": "2026-11-01"
+   "fetched_at": "2026-11-02"
   },
   {
    "source_id": "cpi_monthly_trimmed_mean",
@@ -2077,7 +2077,7 @@
    "rows": 30,
    "status": "pass",
    "problems": "",
-   "fetched_at": "2026-11-01"
+   "fetched_at": "2026-11-02"
   },
   {
    "source_id": "cpi_quarterly_all_groups",
@@ -2085,7 +2085,7 @@
    "rows": 43,
    "status": "pass",
    "problems": "",
-   "fetched_at": "2026-11-01"
+   "fetched_at": "2026-11-02"
   },
   {
    "source_id": "cpi_quarterly_trimmed_mean",
@@ -2093,7 +2093,7 @@
    "rows": 43,
    "status": "pass",
    "problems": "",
-   "fetched_at": "2026-11-01"
+   "fetched_at": "2026-11-02"
   },
   {
    "source_id": "dwelling_approvals",
@@ -2101,7 +2101,7 @@
    "rows": 140,
    "status": "pass",
    "problems": "",
-   "fetched_at": "2026-11-01"
+   "fetched_at": "2026-11-02"
   },
   {
    "source_id": "unemployment_rate",
@@ -2109,7 +2109,7 @@
    "rows": 141,
    "status": "pass",
    "problems": "",
-   "fetched_at": "2026-11-01"
+   "fetched_at": "2026-11-02"
   },
   {
    "source_id": "wpi",
@@ -2117,7 +2117,7 @@
    "rows": 46,
    "status": "pass",
    "problems": "",
-   "fetched_at": "2026-11-01"
+   "fetched_at": "2026-11-02"
   }
  ],
  "lineage": {
@@ -2316,9 +2316,9 @@
   "tests": 30
  },
  "contracts": {
-  "run_at": "2026-11-01T20:58:06Z",
+  "run_at": "2026-11-02T00:52:51Z",
   "mode": "live",
-  "as_of": "2026-11-01",
+  "as_of": "2026-11-02",
   "sources": [
    {
     "id": "cpi_monthly_all_groups",
@@ -2380,8 +2380,8 @@
     "id": "cash_rate",
     "label": "RBA cash rate target (monthly average)",
     "status": "pass",
-    "rows": 141,
-    "latest": "2026-09",
+    "rows": 142,
+    "latest": "2026-10",
     "problems": []
    },
    {
