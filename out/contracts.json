@@ -1,7 +1,7 @@
 {
-  "run_at": "2026-11-02T00:52:51Z",
+  "run_at": "2026-11-03T02:57:19Z",
   "mode": "live",
-  "as_of": "2026-11-02",
+  "as_of": "2026-11-03",
   "sources": [
     {
       "id": "cpi_monthly_all_groups",
@@ -55,8 +55,8 @@
       "id": "dwelling_approvals",
       "label": "Dwelling units approved, total residential, Australia (original)",
       "status": "pass",
-      "rows": 140,
-      "latest": "2026-08",
+      "rows": 141,
+      "latest": "2026-09",
       "problems": []
     },
     {
@@ -71,8 +71,8 @@
       "id": "cash_rate_target",
       "label": "RBA cash rate target (end of month, from the daily table)",
       "status": "pass",
-      "rows": 142,
-      "latest": "2026-10",
+      "rows": 143,
+      "latest": "2026-11",
       "problems": []
     }
   ]
