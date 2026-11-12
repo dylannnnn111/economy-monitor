@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-11T01:19:08Z",
+ "generated_at": "2026-11-12T02:19:10Z",
  "headline": [
   {
    "measure": "inflation",
@@ -2065,7 +2065,7 @@
    "rows": 142,
    "status": "pass",
    "problems": "",
-   "fetched_at": "2026-11-11"
+   "fetched_at": "2026-11-12"
   },
   {
    "source_id": "cash_rate_target",
@@ -2073,7 +2073,7 @@
    "rows": 143,
    "status": "pass",
    "problems": "",
-   "fetched_at": "2026-11-11"
+   "fetched_at": "2026-11-12"
   },
   {
    "source_id": "cpi_monthly_all_groups",
@@ -2081,7 +2081,7 @@
    "rows": 30,
    "status": "pass",
    "problems": "",
-   "fetched_at": "2026-11-11"
+   "fetched_at": "2026-11-12"
   },
   {
    "source_id": "cpi_monthly_trimmed_mean",
@@ -2089,7 +2089,7 @@
    "rows": 30,
    "status": "pass",
    "problems": "",
-   "fetched_at": "2026-11-11"
+   "fetched_at": "2026-11-12"
   },
   {
    "source_id": "cpi_quarterly_all_groups",
@@ -2097,7 +2097,7 @@
    "rows": 43,
    "status": "pass",
    "problems": "",
-   "fetched_at": "2026-11-11"
+   "fetched_at": "2026-11-12"
   },
   {
    "source_id": "cpi_quarterly_trimmed_mean",
@@ -2105,7 +2105,7 @@
    "rows": 43,
    "status": "pass",
    "problems": "",
-   "fetched_at": "2026-11-11"
+   "fetched_at": "2026-11-12"
   },
   {
    "source_id": "dwelling_approvals",
@@ -2113,7 +2113,7 @@
    "rows": 141,
    "status": "pass",
    "problems": "",
-   "fetched_at": "2026-11-11"
+   "fetched_at": "2026-11-12"
   },
   {
    "source_id": "unemployment_rate",
@@ -2121,7 +2121,7 @@
    "rows": 141,
    "status": "pass",
    "problems": "",
-   "fetched_at": "2026-11-11"
+   "fetched_at": "2026-11-12"
   },
   {
    "source_id": "wpi",
@@ -2129,7 +2129,7 @@
    "rows": 46,
    "status": "pass",
    "problems": "",
-   "fetched_at": "2026-11-11"
+   "fetched_at": "2026-11-12"
   }
  ],
  "lineage": {
@@ -2328,9 +2328,9 @@
   "tests": 30
  },
  "contracts": {
-  "run_at": "2026-11-11T01:18:42Z",
+  "run_at": "2026-11-12T02:18:47Z",
   "mode": "live",
-  "as_of": "2026-11-11",
+  "as_of": "2026-11-12",
   "sources": [
    {
     "id": "cpi_monthly_all_groups",
