@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-17T03:59:50Z",
+ "generated_at": "2026-11-18T02:58:07Z",
  "headline": [
   {
    "measure": "inflation",
@@ -40,8 +40,8 @@
    "measure": "real_wage_growth",
    "label": "Real wage growth (wages minus prices)",
    "unit": "%",
-   "value": -0.74,
-   "as_of": "2026-04-01"
+   "value": -0.42,
+   "as_of": "2026-07-01"
   }
  ],
  "monthly": [
@@ -1940,9 +1940,9 @@
   },
   {
    "quarter_label": "2022-Q2",
-   "wage_growth": 2.63,
+   "wage_growth": 2.7,
    "inflation": 6.14,
-   "real_wage_growth": -3.31,
+   "real_wage_growth": -3.24,
    "inflation_source": "quarterly CPI"
   },
   {
@@ -1968,9 +1968,9 @@
   },
   {
    "quarter_label": "2023-Q2",
-   "wage_growth": 3.7,
+   "wage_growth": 3.63,
    "inflation": 6.03,
-   "real_wage_growth": -2.2,
+   "real_wage_growth": -2.26,
    "inflation_source": "quarterly CPI"
   },
   {
@@ -2003,16 +2003,16 @@
   },
   {
    "quarter_label": "2024-Q3",
-   "wage_growth": 3.59,
+   "wage_growth": 3.53,
    "inflation": 2.81,
-   "real_wage_growth": 0.76,
+   "real_wage_growth": 0.7,
    "inflation_source": "quarterly CPI"
   },
   {
    "quarter_label": "2024-Q4",
-   "wage_growth": 3.22,
+   "wage_growth": 3.15,
    "inflation": 2.42,
-   "real_wage_growth": 0.78,
+   "real_wage_growth": 0.71,
    "inflation_source": "quarterly CPI"
   },
   {
@@ -2031,23 +2031,23 @@
   },
   {
    "quarter_label": "2025-Q3",
-   "wage_growth": 3.34,
+   "wage_growth": 3.41,
    "inflation": 3.24,
-   "real_wage_growth": 0.1,
+   "real_wage_growth": 0.16,
    "inflation_source": "quarterly CPI"
   },
   {
    "quarter_label": "2025-Q4",
-   "wage_growth": 3.44,
+   "wage_growth": 3.51,
    "inflation": 3.67,
-   "real_wage_growth": -0.22,
+   "real_wage_growth": -0.15,
    "inflation_source": "monthly CPI"
   },
   {
    "quarter_label": "2026-Q1",
-   "wage_growth": 3.22,
+   "wage_growth": 3.28,
    "inflation": 4.05,
-   "real_wage_growth": -0.8,
+   "real_wage_growth": -0.74,
    "inflation_source": "monthly CPI"
   },
   {
@@ -2055,6 +2055,13 @@
    "wage_growth": 3.19,
    "inflation": 3.96,
    "real_wage_growth": -0.74,
+   "inflation_source": "monthly CPI"
+  },
+  {
+   "quarter_label": "2026-Q3",
+   "wage_growth": 3.48,
+   "inflation": 3.92,
+   "real_wage_growth": -0.42,
    "inflation_source": "monthly CPI"
   }
  ],
@@ -2065,7 +2072,7 @@
    "rows": 142,
    "status": "pass",
    "problems": "",
-   "fetched_at": "2026-11-17"
+   "fetched_at": "2026-11-18"
   },
   {
    "source_id": "cash_rate_target",
@@ -2073,7 +2080,7 @@
    "rows": 143,
    "status": "pass",
    "problems": "",
-   "fetched_at": "2026-11-17"
+   "fetched_at": "2026-11-18"
   },
   {
    "source_id": "cpi_monthly_all_groups",
@@ -2081,7 +2088,7 @@
    "rows": 30,
    "status": "pass",
    "problems": "",
-   "fetched_at": "2026-11-17"
+   "fetched_at": "2026-11-18"
   },
   {
    "source_id": "cpi_monthly_trimmed_mean",
@@ -2089,7 +2096,7 @@
    "rows": 30,
    "status": "pass",
    "problems": "",
-   "fetched_at": "2026-11-17"
+   "fetched_at": "2026-11-18"
   },
   {
    "source_id": "cpi_quarterly_all_groups",
@@ -2097,7 +2104,7 @@
    "rows": 43,
    "status": "pass",
    "problems": "",
-   "fetched_at": "2026-11-17"
+   "fetched_at": "2026-11-18"
   },
   {
    "source_id": "cpi_quarterly_trimmed_mean",
@@ -2105,7 +2112,7 @@
    "rows": 43,
    "status": "pass",
    "problems": "",
-   "fetched_at": "2026-11-17"
+   "fetched_at": "2026-11-18"
   },
   {
    "source_id": "dwelling_approvals",
@@ -2113,7 +2120,7 @@
    "rows": 141,
    "status": "pass",
    "problems": "",
-   "fetched_at": "2026-11-17"
+   "fetched_at": "2026-11-18"
   },
   {
    "source_id": "unemployment_rate",
@@ -2121,15 +2128,15 @@
    "rows": 141,
    "status": "pass",
    "problems": "",
-   "fetched_at": "2026-11-17"
+   "fetched_at": "2026-11-18"
   },
   {
    "source_id": "wpi",
    "mode": "live",
-   "rows": 46,
+   "rows": 47,
    "status": "pass",
    "problems": "",
-   "fetched_at": "2026-11-17"
+   "fetched_at": "2026-11-18"
   }
  ],
  "lineage": {
@@ -2328,9 +2335,9 @@
   "tests": 30
  },
  "contracts": {
-  "run_at": "2026-11-17T03:59:25Z",
+  "run_at": "2026-11-18T02:57:48Z",
   "mode": "live",
-  "as_of": "2026-11-17",
+  "as_of": "2026-11-18",
   "sources": [
    {
     "id": "cpi_monthly_all_groups",
@@ -2376,8 +2383,8 @@
     "id": "wpi",
     "label": "Wage Price Index, total hourly rates excl. bonuses, all sectors, seasonally adjusted",
     "status": "pass",
-    "rows": 46,
-    "latest": "2026-Q2",
+    "rows": 47,
+    "latest": "2026-Q3",
     "problems": []
    },
    {
