@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-18T02:58:07Z",
+ "generated_at": "2026-11-19T02:40:08Z",
  "headline": [
   {
    "measure": "inflation",
@@ -26,8 +26,8 @@
    "measure": "unemployment_rate",
    "label": "Unemployment rate",
    "unit": "%",
-   "value": 4.72,
-   "as_of": "2026-09-01"
+   "value": 4.86,
+   "as_of": "2026-10-01"
   },
   {
    "measure": "dwellings_approved_12m",
@@ -65,7 +65,7 @@
    "cash_rate": 2.28,
    "cash_rate_target": 2.25,
    "real_cash_rate": null,
-   "unemployment_rate": 6.16,
+   "unemployment_rate": 6.15,
    "dwellings_approved": 18371.0,
    "dwellings_approved_12m": null
   },
@@ -341,7 +341,7 @@
    "cash_rate": 1.5,
    "cash_rate_target": 1.5,
    "real_cash_rate": -0.21,
-   "unemployment_rate": 5.69,
+   "unemployment_rate": 5.68,
    "dwellings_approved": 14036.0,
    "dwellings_approved_12m": 233217.0
   },
@@ -437,7 +437,7 @@
    "cash_rate": 1.5,
    "cash_rate_target": 1.5,
    "real_cash_rate": -0.24,
-   "unemployment_rate": 5.46,
+   "unemployment_rate": 5.47,
    "dwellings_approved": 20485.0,
    "dwellings_approved_12m": 217591.0
   },
@@ -641,7 +641,7 @@
    "cash_rate": 1.5,
    "cash_rate_target": 1.5,
    "real_cash_rate": -0.08,
-   "unemployment_rate": 5.0,
+   "unemployment_rate": 4.99,
    "dwellings_approved": 16154.0,
    "dwellings_approved_12m": 204689.0
   },
@@ -785,7 +785,7 @@
    "cash_rate": 0.75,
    "cash_rate_target": 0.75,
    "real_cash_rate": -0.92,
-   "unemployment_rate": 5.12,
+   "unemployment_rate": 5.11,
    "dwellings_approved": 16175.0,
    "dwellings_approved_12m": 175732.0
   },
@@ -857,7 +857,7 @@
    "cash_rate": 0.25,
    "cash_rate_target": 0.25,
    "real_cash_rate": -0.92,
-   "unemployment_rate": 6.79,
+   "unemployment_rate": 6.8,
    "dwellings_approved": 14274.0,
    "dwellings_approved_12m": 176320.0
   },
@@ -869,7 +869,7 @@
    "cash_rate": 0.25,
    "cash_rate_target": 0.25,
    "real_cash_rate": -0.92,
-   "unemployment_rate": 6.92,
+   "unemployment_rate": 6.93,
    "dwellings_approved": 16890.0,
    "dwellings_approved_12m": 178536.0
   },
@@ -881,7 +881,7 @@
    "cash_rate": 0.25,
    "cash_rate_target": 0.25,
    "real_cash_rate": -0.99,
-   "unemployment_rate": 6.95,
+   "unemployment_rate": 6.94,
    "dwellings_approved": 18233.0,
    "dwellings_approved_12m": 181661.0
   },
@@ -917,7 +917,7 @@
    "cash_rate": 0.1,
    "cash_rate_target": 0.1,
    "real_cash_rate": -1.02,
-   "unemployment_rate": 6.28,
+   "unemployment_rate": 6.27,
    "dwellings_approved": 13281.0,
    "dwellings_approved_12m": 189298.0
   },
@@ -989,7 +989,7 @@
    "cash_rate": 0.1,
    "cash_rate_target": 0.1,
    "real_cash_rate": -2.0,
-   "unemployment_rate": 4.73,
+   "unemployment_rate": 4.74,
    "dwellings_approved": 19411.0,
    "dwellings_approved_12m": 224861.0
   },
@@ -1013,7 +1013,7 @@
    "cash_rate": 0.1,
    "cash_rate_target": 0.1,
    "real_cash_rate": -2.0,
-   "unemployment_rate": 4.7,
+   "unemployment_rate": 4.71,
    "dwellings_approved": 19563.0,
    "dwellings_approved_12m": 232754.0
   },
@@ -1061,7 +1061,7 @@
    "cash_rate": 0.1,
    "cash_rate_target": 0.1,
    "real_cash_rate": -3.7,
-   "unemployment_rate": 4.17,
+   "unemployment_rate": 4.16,
    "dwellings_approved": 10192.0,
    "dwellings_approved_12m": 225789.0
   },
@@ -1157,7 +1157,7 @@
    "cash_rate": 2.25,
    "cash_rate_target": 2.35,
    "real_cash_rate": -3.8,
-   "unemployment_rate": 3.6,
+   "unemployment_rate": 3.61,
    "dwellings_approved": 17501.0,
    "dwellings_approved_12m": 194028.0
   },
@@ -1181,7 +1181,7 @@
    "cash_rate": 2.84,
    "cash_rate_target": 2.85,
    "real_cash_rate": -3.93,
-   "unemployment_rate": 3.52,
+   "unemployment_rate": 3.51,
    "dwellings_approved": 16464.0,
    "dwellings_approved_12m": 192077.0
   },
@@ -1193,7 +1193,7 @@
    "cash_rate": 3.05,
    "cash_rate_target": 3.1,
    "real_cash_rate": -3.72,
-   "unemployment_rate": 3.53,
+   "unemployment_rate": 3.52,
    "dwellings_approved": 15843.0,
    "dwellings_approved_12m": 191607.0
   },
@@ -1289,7 +1289,7 @@
    "cash_rate": 4.1,
    "cash_rate_target": 4.1,
    "real_cash_rate": -0.97,
-   "unemployment_rate": 3.66,
+   "unemployment_rate": 3.67,
    "dwellings_approved": 14523.0,
    "dwellings_approved_12m": 172534.0
   },
@@ -1301,7 +1301,7 @@
    "cash_rate": 4.1,
    "cash_rate_target": 4.1,
    "real_cash_rate": -0.97,
-   "unemployment_rate": 3.55,
+   "unemployment_rate": 3.57,
    "dwellings_approved": 13964.0,
    "dwellings_approved_12m": 168997.0
   },
@@ -1313,7 +1313,7 @@
    "cash_rate": 4.1,
    "cash_rate_target": 4.1,
    "real_cash_rate": -0.09,
-   "unemployment_rate": 3.77,
+   "unemployment_rate": 3.76,
    "dwellings_approved": 15129.0,
    "dwellings_approved_12m": 168710.0
   },
@@ -1325,7 +1325,7 @@
    "cash_rate": 4.29,
    "cash_rate_target": 4.35,
    "real_cash_rate": 0.1,
-   "unemployment_rate": 3.93,
+   "unemployment_rate": 3.92,
    "dwellings_approved": 15821.0,
    "dwellings_approved_12m": 168067.0
   },
@@ -1337,7 +1337,7 @@
    "cash_rate": 4.35,
    "cash_rate_target": 4.35,
    "real_cash_rate": 0.16,
-   "unemployment_rate": 3.99,
+   "unemployment_rate": 3.98,
    "dwellings_approved": 12072.0,
    "dwellings_approved_12m": 164296.0
   },
@@ -1373,7 +1373,7 @@
    "cash_rate": 4.35,
    "cash_rate_target": 4.35,
    "real_cash_rate": 0.32,
-   "unemployment_rate": 3.91,
+   "unemployment_rate": 3.9,
    "dwellings_approved": 13056.0,
    "dwellings_approved_12m": 164273.0
   },
@@ -1421,7 +1421,7 @@
    "cash_rate": 4.35,
    "cash_rate_target": 4.35,
    "real_cash_rate": 0.76,
-   "unemployment_rate": 4.21,
+   "unemployment_rate": 4.22,
    "dwellings_approved": 16593.0,
    "dwellings_approved_12m": 167872.0
   },
@@ -1433,7 +1433,7 @@
    "cash_rate": 4.35,
    "cash_rate_target": 4.35,
    "real_cash_rate": 0.76,
-   "unemployment_rate": 4.11,
+   "unemployment_rate": 4.12,
    "dwellings_approved": 14860.0,
    "dwellings_approved_12m": 168209.0
   },
@@ -1445,7 +1445,7 @@
    "cash_rate": 4.35,
    "cash_rate_target": 4.35,
    "real_cash_rate": 0.76,
-   "unemployment_rate": 4.01,
+   "unemployment_rate": 4.02,
    "dwellings_approved": 14934.0,
    "dwellings_approved_12m": 169179.0
   },
@@ -1457,7 +1457,7 @@
    "cash_rate": 4.35,
    "cash_rate_target": 4.35,
    "real_cash_rate": 1.09,
-   "unemployment_rate": 4.08,
+   "unemployment_rate": 4.07,
    "dwellings_approved": 17938.0,
    "dwellings_approved_12m": 171988.0
   },
@@ -1469,7 +1469,7 @@
    "cash_rate": 4.35,
    "cash_rate_target": 4.35,
    "real_cash_rate": 1.09,
-   "unemployment_rate": 3.93,
+   "unemployment_rate": 3.92,
    "dwellings_approved": 15916.0,
    "dwellings_approved_12m": 172083.0
   },
@@ -1481,7 +1481,7 @@
    "cash_rate": 4.35,
    "cash_rate_target": 4.35,
    "real_cash_rate": 1.09,
-   "unemployment_rate": 4.0,
+   "unemployment_rate": 3.99,
    "dwellings_approved": 14318.0,
    "dwellings_approved_12m": 174329.0
   },
@@ -1493,7 +1493,7 @@
    "cash_rate": 4.35,
    "cash_rate_target": 4.35,
    "real_cash_rate": 1.42,
-   "unemployment_rate": 4.13,
+   "unemployment_rate": 4.12,
    "dwellings_approved": 13321.0,
    "dwellings_approved_12m": 176596.0
   },
@@ -1505,7 +1505,7 @@
    "cash_rate": 4.25,
    "cash_rate_target": 4.1,
    "real_cash_rate": 1.32,
-   "unemployment_rate": 4.08,
+   "unemployment_rate": 4.07,
    "dwellings_approved": 16255.0,
    "dwellings_approved_12m": 179421.0
   },
@@ -1541,7 +1541,7 @@
    "cash_rate": 4.01,
    "cash_rate_target": 3.85,
    "real_cash_rate": 1.0,
-   "unemployment_rate": 4.11,
+   "unemployment_rate": 4.12,
    "dwellings_approved": 16810.0,
    "dwellings_approved_12m": 184007.0
   },
@@ -1565,7 +1565,7 @@
    "cash_rate": 3.85,
    "cash_rate_target": 3.85,
    "real_cash_rate": 0.8,
-   "unemployment_rate": 4.26,
+   "unemployment_rate": 4.27,
    "dwellings_approved": 18269.0,
    "dwellings_approved_12m": 189572.0
   },
@@ -1577,7 +1577,7 @@
    "cash_rate": 3.7,
    "cash_rate_target": 3.6,
    "real_cash_rate": 0.64,
-   "unemployment_rate": 4.22,
+   "unemployment_rate": 4.23,
    "dwellings_approved": 15256.0,
    "dwellings_approved_12m": 189968.0
   },
@@ -1589,7 +1589,7 @@
    "cash_rate": 3.6,
    "cash_rate_target": 3.6,
    "real_cash_rate": 0.4,
-   "unemployment_rate": 4.43,
+   "unemployment_rate": 4.45,
    "dwellings_approved": 18630.0,
    "dwellings_approved_12m": 193664.0
   },
@@ -1601,7 +1601,7 @@
    "cash_rate": 3.6,
    "cash_rate_target": 3.6,
    "real_cash_rate": 0.32,
-   "unemployment_rate": 4.32,
+   "unemployment_rate": 4.3,
    "dwellings_approved": 17565.0,
    "dwellings_approved_12m": 193291.0
   },
@@ -1613,7 +1613,7 @@
    "cash_rate": 3.6,
    "cash_rate_target": 3.6,
    "real_cash_rate": 0.37,
-   "unemployment_rate": 4.31,
+   "unemployment_rate": 4.3,
    "dwellings_approved": 18581.0,
    "dwellings_approved_12m": 195956.0
   },
@@ -1625,7 +1625,7 @@
    "cash_rate": 3.6,
    "cash_rate_target": 3.6,
    "real_cash_rate": 0.3,
-   "unemployment_rate": 4.12,
+   "unemployment_rate": 4.11,
    "dwellings_approved": 15179.0,
    "dwellings_approved_12m": 196817.0
   },
@@ -1649,7 +1649,7 @@
    "cash_rate": 3.83,
    "cash_rate_target": 3.85,
    "real_cash_rate": 0.57,
-   "unemployment_rate": 4.31,
+   "unemployment_rate": 4.3,
    "dwellings_approved": 19241.0,
    "dwellings_approved_12m": 197183.0
   },
@@ -1685,7 +1685,7 @@
    "cash_rate": 4.31,
    "cash_rate_target": 4.35,
    "real_cash_rate": 0.8,
-   "unemployment_rate": 4.39,
+   "unemployment_rate": 4.4,
    "dwellings_approved": 17241.0,
    "dwellings_approved_12m": 202999.0
   },
@@ -1709,7 +1709,7 @@
    "cash_rate": 4.35,
    "cash_rate_target": 4.35,
    "real_cash_rate": 0.75,
-   "unemployment_rate": 4.49,
+   "unemployment_rate": 4.5,
    "dwellings_approved": 19291.0,
    "dwellings_approved_12m": 206578.0
   },
@@ -1721,7 +1721,7 @@
    "cash_rate": 4.35,
    "cash_rate_target": 4.35,
    "real_cash_rate": 0.81,
-   "unemployment_rate": 4.65,
+   "unemployment_rate": 4.67,
    "dwellings_approved": 17173.0,
    "dwellings_approved_12m": 208495.0
   },
@@ -1733,7 +1733,7 @@
    "cash_rate": 4.36,
    "cash_rate_target": 4.6,
    "real_cash_rate": 0.77,
-   "unemployment_rate": 4.72,
+   "unemployment_rate": 4.74,
    "dwellings_approved": 18311.0,
    "dwellings_approved_12m": 208176.0
   },
@@ -1745,7 +1745,7 @@
    "cash_rate": 4.6,
    "cash_rate_target": 4.6,
    "real_cash_rate": null,
-   "unemployment_rate": null,
+   "unemployment_rate": 4.86,
    "dwellings_approved": null,
    "dwellings_approved_12m": null
   },
@@ -2072,7 +2072,7 @@
    "rows": 142,
    "status": "pass",
    "problems": "",
-   "fetched_at": "2026-11-18"
+   "fetched_at": "2026-11-19"
   },
   {
    "source_id": "cash_rate_target",
@@ -2080,7 +2080,7 @@
    "rows": 143,
    "status": "pass",
    "problems": "",
-   "fetched_at": "2026-11-18"
+   "fetched_at": "2026-11-19"
   },
   {
    "source_id": "cpi_monthly_all_groups",
@@ -2088,7 +2088,7 @@
    "rows": 30,
    "status": "pass",
    "problems": "",
-   "fetched_at": "2026-11-18"
+   "fetched_at": "2026-11-19"
   },
   {
    "source_id": "cpi_monthly_trimmed_mean",
@@ -2096,7 +2096,7 @@
    "rows": 30,
    "status": "pass",
    "problems": "",
-   "fetched_at": "2026-11-18"
+   "fetched_at": "2026-11-19"
   },
   {
    "source_id": "cpi_quarterly_all_groups",
@@ -2104,7 +2104,7 @@
    "rows": 43,
    "status": "pass",
    "problems": "",
-   "fetched_at": "2026-11-18"
+   "fetched_at": "2026-11-19"
   },
   {
    "source_id": "cpi_quarterly_trimmed_mean",
@@ -2112,7 +2112,7 @@
    "rows": 43,
    "status": "pass",
    "problems": "",
-   "fetched_at": "2026-11-18"
+   "fetched_at": "2026-11-19"
   },
   {
    "source_id": "dwelling_approvals",
@@ -2120,15 +2120,15 @@
    "rows": 141,
    "status": "pass",
    "problems": "",
-   "fetched_at": "2026-11-18"
+   "fetched_at": "2026-11-19"
   },
   {
    "source_id": "unemployment_rate",
    "mode": "live",
-   "rows": 141,
+   "rows": 142,
    "status": "pass",
    "problems": "",
-   "fetched_at": "2026-11-18"
+   "fetched_at": "2026-11-19"
   },
   {
    "source_id": "wpi",
@@ -2136,7 +2136,7 @@
    "rows": 47,
    "status": "pass",
    "problems": "",
-   "fetched_at": "2026-11-18"
+   "fetched_at": "2026-11-19"
   }
  ],
  "lineage": {
@@ -2335,9 +2335,9 @@
   "tests": 30
  },
  "contracts": {
-  "run_at": "2026-11-18T02:57:48Z",
+  "run_at": "2026-11-19T02:39:44Z",
   "mode": "live",
-  "as_of": "2026-11-18",
+  "as_of": "2026-11-19",
   "sources": [
    {
     "id": "cpi_monthly_all_groups",
@@ -2375,8 +2375,8 @@
     "id": "unemployment_rate",
     "label": "Unemployment rate, persons, seasonally adjusted, Australia",
     "status": "pass",
-    "rows": 141,
-    "latest": "2026-09",
+    "rows": 142,
+    "latest": "2026-10",
     "problems": []
    },
    {
