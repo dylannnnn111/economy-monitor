@@ -1,7 +1,7 @@
 {
-  "run_at": "2026-11-23T01:50:00Z",
+  "run_at": "2026-11-24T05:22:15Z",
   "mode": "live",
-  "as_of": "2026-11-23",
+  "as_of": "2026-11-24",
   "sources": [
     {
       "id": "cpi_monthly_all_groups",
