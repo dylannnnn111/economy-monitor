@@ -1,22 +1,22 @@
 {
-  "run_at": "2026-11-24T05:22:15Z",
+  "run_at": "2026-11-25T04:19:41Z",
   "mode": "live",
-  "as_of": "2026-11-24",
+  "as_of": "2026-11-25",
   "sources": [
     {
       "id": "cpi_monthly_all_groups",
       "label": "CPI, all groups, Australia (monthly index)",
       "status": "pass",
-      "rows": 30,
-      "latest": "2026-09",
+      "rows": 31,
+      "latest": "2026-10",
       "problems": []
     },
     {
       "id": "cpi_monthly_trimmed_mean",
       "label": "CPI, trimmed mean, Australia (monthly index)",
       "status": "pass",
-      "rows": 30,
-      "latest": "2026-09",
+      "rows": 31,
+      "latest": "2026-10",
       "problems": []
     },
     {
